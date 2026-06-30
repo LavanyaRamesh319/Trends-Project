@@ -112,13 +112,13 @@ docker build -t lavanyadevops1/trend-app:latest .
 ```bash
 docker run -d -p 3000:80 lavanyadevops1/trend-app:latest
 ```
-<img width="859" height="270" alt="image" src="https://github.com/user-attachments/assets/5633b245-922b-4727-9891-4fae13e7dcc2" />
+<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/5633b245-922b-4727-9891-4fae13e7dcc2" />
 
 
-<img width="940" height="193" alt="image" src="https://github.com/user-attachments/assets/331adab4-566a-43e2-9393-d736ba16c44b" />
+<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/331adab4-566a-43e2-9393-d736ba16c44b" />
 
 
-<img width="940" height="467" alt="image" src="https://github.com/user-attachments/assets/0383161d-d0af-4e11-a590-8481a95a5acd" />
+<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/0383161d-d0af-4e11-a590-8481a95a5acd" />
 
 
 ---
