@@ -86,7 +86,7 @@ https://github.com/Vennilavanguvi/Trend.git
 
 The repository was cloned and deployed on port **3000** using Docker.
 
-<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/c5968263-72c4-4630-8ca3-0ee916c19900" />
+<img width="850" height="150" alt="image" src="https://github.com/user-attachments/assets/c5968263-72c4-4630-8ca3-0ee916c19900" />
 
 
 ---
@@ -112,13 +112,13 @@ docker build -t lavanyadevops1/trend-app:latest .
 ```bash
 docker run -d -p 3000:80 lavanyadevops1/trend-app:latest
 ```
-<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/5633b245-922b-4727-9891-4fae13e7dcc2" />
+<img width="850" height="150" alt="image" src="https://github.com/user-attachments/assets/5633b245-922b-4727-9891-4fae13e7dcc2" />
 
 
-<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/331adab4-566a-43e2-9393-d736ba16c44b" />
+<img width="850" height="150" alt="image" src="https://github.com/user-attachments/assets/331adab4-566a-43e2-9393-d736ba16c44b" />
 
 
-<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/0383161d-d0af-4e11-a590-8481a95a5acd" />
+<img width="850" height="150" alt="image" src="https://github.com/user-attachments/assets/0383161d-d0af-4e11-a590-8481a95a5acd" />
 
 
 ---
@@ -155,31 +155,31 @@ terraform plan
 terraform apply
 ```
 
-<img width="763" height="1165" alt="image" src="https://github.com/user-attachments/assets/2e70f0af-bbcf-49de-b3a6-a3c204b92b01" />
+<img width="900" height="1165" alt="image" src="https://github.com/user-attachments/assets/2e70f0af-bbcf-49de-b3a6-a3c204b92b01" />
 
 
-<img width="776" height="1146" alt="image" src="https://github.com/user-attachments/assets/2a8d20ad-a0cc-4732-80a9-066713466d74" />
+<img width="900" height="1146" alt="image" src="https://github.com/user-attachments/assets/2a8d20ad-a0cc-4732-80a9-066713466d74" />
 
 
-<img width="809" height="994" alt="image" src="https://github.com/user-attachments/assets/51c8e11b-c96d-482f-8b0b-24f599990c26" />
+<img width="900" height="994" alt="image" src="https://github.com/user-attachments/assets/51c8e11b-c96d-482f-8b0b-24f599990c26" />
 
 
-<img width="940" height="553" alt="image" src="https://github.com/user-attachments/assets/fef6f6cc-c44a-4433-87de-e6620fd8f868" />
+<img width="900" height="553" alt="image" src="https://github.com/user-attachments/assets/fef6f6cc-c44a-4433-87de-e6620fd8f868" />
 
 
-<img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/483aaee5-9ea3-4450-bfab-76e83365f2ec" />
+<img width="900" height="499" alt="image" src="https://github.com/user-attachments/assets/483aaee5-9ea3-4450-bfab-76e83365f2ec" />
 
 
-<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/e3ed5edf-127c-4fac-8aaa-c0af9a81a3a8" />
+<img width="900" height="515" alt="image" src="https://github.com/user-attachments/assets/e3ed5edf-127c-4fac-8aaa-c0af9a81a3a8" />
 
 
-<img width="915" height="134" alt="image" src="https://github.com/user-attachments/assets/ac18ca35-b1a3-4d3e-bfe3-75739be75b67" />
+<img width="900" height="134" alt="image" src="https://github.com/user-attachments/assets/ac18ca35-b1a3-4d3e-bfe3-75739be75b67" />
 
 
-<img width="940" height="388" alt="image" src="https://github.com/user-attachments/assets/97c736f3-d1a9-4d83-90f3-63cca87a7b66" />
+<img width="900" height="388" alt="image" src="https://github.com/user-attachments/assets/97c736f3-d1a9-4d83-90f3-63cca87a7b66" />
 
 
-<img width="940" height="473" alt="image" src="https://github.com/user-attachments/assets/25ccb87a-191a-45ce-810e-119e67e9493c" />
+<img width="900" height="473" alt="image" src="https://github.com/user-attachments/assets/25ccb87a-191a-45ce-810e-119e67e9493c" />
 
 ---
 
@@ -201,19 +201,19 @@ docker login
 docker push lavanyadevops1/trend-app:latest
 ```
 
-<img width="940" height="436" alt="image" src="https://github.com/user-attachments/assets/82cc8a1b-7613-4fc4-a001-b9cedff9d9a6" />
+<img width="900" height="436" alt="image" src="https://github.com/user-attachments/assets/82cc8a1b-7613-4fc4-a001-b9cedff9d9a6" />
 
 
-<img width="940" height="413" alt="image" src="https://github.com/user-attachments/assets/5b88f899-e133-41ab-9abe-b255dd4a4bb4" />
+<img width="900" height="413" alt="image" src="https://github.com/user-attachments/assets/5b88f899-e133-41ab-9abe-b255dd4a4bb4" />
 
 
-<img width="940" height="163" alt="image" src="https://github.com/user-attachments/assets/7f14ac7b-26bb-421e-98da-8315c7f4dcee" />
+<img width="900" height="163" alt="image" src="https://github.com/user-attachments/assets/7f14ac7b-26bb-421e-98da-8315c7f4dcee" />
 
 
-<img width="940" height="402" alt="image" src="https://github.com/user-attachments/assets/7217c4ca-ed48-452f-87f1-c7d544967a75" />
+<img width="900" height="402" alt="image" src="https://github.com/user-attachments/assets/7217c4ca-ed48-452f-87f1-c7d544967a75" />
 
 
-<img width="940" height="419" alt="image" src="https://github.com/user-attachments/assets/161f5e1b-8869-49ea-8121-7ab8fdc1f0be" />
+<img width="900" height="419" alt="image" src="https://github.com/user-attachments/assets/161f5e1b-8869-49ea-8121-7ab8fdc1f0be" />
 
 ---
 
@@ -221,10 +221,10 @@ docker push lavanyadevops1/trend-app:latest
 
 Amazon EKS Cluster was successfully created.
 
-<img width="940" height="482" alt="image" src="https://github.com/user-attachments/assets/245ee647-9a10-48cc-9870-46886913a934" />
+<img width="900" height="482" alt="image" src="https://github.com/user-attachments/assets/245ee647-9a10-48cc-9870-46886913a934" />
 
 
-<img width="940" height="449" alt="image" src="https://github.com/user-attachments/assets/5ec2260f-7ee0-4109-930a-9eae9daaf067" />
+<img width="900" height="449" alt="image" src="https://github.com/user-attachments/assets/5ec2260f-7ee0-4109-930a-9eae9daaf067" />
 
 
 Verification
@@ -260,7 +260,7 @@ kubectl get pods
 kubectl get svc
 ```
 
-<img width="940" height="183" alt="image" src="https://github.com/user-attachments/assets/f52a6048-97bb-4bd9-8c18-aabf4e5d2849" />
+<img width="900" height="183" alt="image" src="https://github.com/user-attachments/assets/f52a6048-97bb-4bd9-8c18-aabf4e5d2849" />
 
 ---
 
@@ -272,7 +272,7 @@ deployment.yaml
 - Replicas: 2
 - Image: lavanyadevops1/trend-app:latest
 
-<img width="851" height="709" alt="image" src="https://github.com/user-attachments/assets/ce890715-046a-4de6-af23-0d4f2b7c687c" />
+<img width="900" height="709" alt="image" src="https://github.com/user-attachments/assets/ce890715-046a-4de6-af23-0d4f2b7c687c" />
 
 
 service.yaml
@@ -281,7 +281,7 @@ service.yaml
 - Port: 80
 - Target Port: 80
 
-<img width="714" height="419" alt="image" src="https://github.com/user-attachments/assets/8c2c4d69-4579-4cd6-96cc-fc05e752516b" />
+<img width="900" height="419" alt="image" src="https://github.com/user-attachments/assets/8c2c4d69-4579-4cd6-96cc-fc05e752516b" />
 
 
 ---
@@ -315,16 +315,16 @@ git commit -m "Project completed"
 git push origin main
 ```
 
-<img width="940" height="670" alt="image" src="https://github.com/user-attachments/assets/40b84a5f-956e-494d-a2cc-c98c0fc330af" />
+<img width="900" height="670" alt="image" src="https://github.com/user-attachments/assets/40b84a5f-956e-494d-a2cc-c98c0fc330af" />
 
 
-<img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/595cbba9-4fa9-4fb3-8e64-48de14c5ce0d" />
+<img width="900" height="319" alt="image" src="https://github.com/user-attachments/assets/595cbba9-4fa9-4fb3-8e64-48de14c5ce0d" />
 
 
-<img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/1836b62c-cdee-4571-aae9-0b2fc7cdcda7" />
+<img width="900" height="368" alt="image" src="https://github.com/user-attachments/assets/1836b62c-cdee-4571-aae9-0b2fc7cdcda7" />
 
 
-<img width="940" height="475" alt="image" src="https://github.com/user-attachments/assets/7b969305-dbd7-4604-9e54-c1bfab814374" />
+<img width="900" height="475" alt="image" src="https://github.com/user-attachments/assets/7b969305-dbd7-4604-9e54-c1bfab814374" />
 
 ---
 
@@ -351,10 +351,10 @@ Webhook URL
 http://<Jenkins-Public-IP>:8080/github-webhook/
 ```
 
-<img width="940" height="577" alt="image" src="https://github.com/user-attachments/assets/8019845b-f886-4cbb-8ca8-9cb01c67917a" />
+<img width="900" height="577" alt="image" src="https://github.com/user-attachments/assets/8019845b-f886-4cbb-8ca8-9cb01c67917a" />
 
 
-<img width="940" height="333" alt="image" src="https://github.com/user-attachments/assets/23352f32-ff97-4d3c-be14-b98562b5775e" />
+<img width="900" height="333" alt="image" src="https://github.com/user-attachments/assets/23352f32-ff97-4d3c-be14-b98562b5775e" />
 
 
 ---
@@ -382,15 +382,15 @@ Push Docker Image to DockerHub.
 Deploy application to Amazon EKS using Kubernetes.
 
 
-<img width="940" height="739" alt="image" src="https://github.com/user-attachments/assets/38978b00-5088-4982-afcb-a5113f9d371b" />
+<img width="900" height="739" alt="image" src="https://github.com/user-attachments/assets/38978b00-5088-4982-afcb-a5113f9d371b" />
 
-<img width="940" height="715" alt="image" src="https://github.com/user-attachments/assets/fa2ebd1d-a3ae-4568-aea4-1954546f21d9" />
+<img width="900" height="715" alt="image" src="https://github.com/user-attachments/assets/fa2ebd1d-a3ae-4568-aea4-1954546f21d9" />
 
-<img width="940" height="148" alt="image" src="https://github.com/user-attachments/assets/317af57a-d323-4da3-bda4-6f0d5f46bf20" />
+<img width="900" height="148" alt="image" src="https://github.com/user-attachments/assets/317af57a-d323-4da3-bda4-6f0d5f46bf20" />
 
-<img width="940" height="335" alt="image" src="https://github.com/user-attachments/assets/6ce521fb-d9d4-4d39-88be-9569fa754dac" />
+<img width="900" height="335" alt="image" src="https://github.com/user-attachments/assets/6ce521fb-d9d4-4d39-88be-9569fa754dac" />
 
-<img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/a3cd035e-caaa-4001-8d33-c550e7e01a31" />
+<img width="900" height="106" alt="image" src="https://github.com/user-attachments/assets/a3cd035e-caaa-4001-8d33-c550e7e01a31" />
 
 
 
@@ -412,21 +412,21 @@ Pipeline Result
 SUCCESS
 ```
 
-<img width="940" height="524" alt="image" src="https://github.com/user-attachments/assets/8cc5c0fc-fd5f-4570-b493-2de24cebdc1d" />
+<img width="900" height="524" alt="image" src="https://github.com/user-attachments/assets/8cc5c0fc-fd5f-4570-b493-2de24cebdc1d" />
 
-<img width="940" height="555" alt="image" src="https://github.com/user-attachments/assets/a6b158de-b37e-445f-8e7d-4317056c69f3" />
+<img width="900" height="555" alt="image" src="https://github.com/user-attachments/assets/a6b158de-b37e-445f-8e7d-4317056c69f3" />
 
-<img width="940" height="755" alt="image" src="https://github.com/user-attachments/assets/5cbebcaa-f17d-482a-b943-58ce3f77978c" />
+<img width="900" height="755" alt="image" src="https://github.com/user-attachments/assets/5cbebcaa-f17d-482a-b943-58ce3f77978c" />
 
-<img width="940" height="597" alt="image" src="https://github.com/user-attachments/assets/4ba84152-ab13-4774-99ab-d55a66b806bf" />
+<img width="900" height="597" alt="image" src="https://github.com/user-attachments/assets/4ba84152-ab13-4774-99ab-d55a66b806bf" />
 
-<img width="940" height="770" alt="image" src="https://github.com/user-attachments/assets/73d81b16-73f2-4954-b4f7-1477b06c7230" />
+<img width="900" height="770" alt="image" src="https://github.com/user-attachments/assets/73d81b16-73f2-4954-b4f7-1477b06c7230" />
 
-<img width="940" height="712" alt="image" src="https://github.com/user-attachments/assets/a8215f39-21c2-4ee7-a79d-b2ff562272dc" />
+<img width="900" height="712" alt="image" src="https://github.com/user-attachments/assets/a8215f39-21c2-4ee7-a79d-b2ff562272dc" />
 
-<img width="940" height="691" alt="image" src="https://github.com/user-attachments/assets/ed461fce-edac-405b-8f03-0961433c7051" />
+<img width="900" height="691" alt="image" src="https://github.com/user-attachments/assets/ed461fce-edac-405b-8f03-0961433c7051" />
 
-<img width="940" height="183" alt="image" src="https://github.com/user-attachments/assets/c019ff98-3471-4b8c-b5eb-f8b90eb7c9e5" />
+<img width="900" height="183" alt="image" src="https://github.com/user-attachments/assets/c019ff98-3471-4b8c-b5eb-f8b90eb7c9e5" />
 
 <img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/9f9db227-889b-4f03-8205-0571b66439eb" />
 ---
