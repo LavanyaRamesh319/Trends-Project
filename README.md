@@ -86,7 +86,7 @@ https://github.com/Vennilavanguvi/Trend.git
 
 The repository was cloned and deployed on port **3000** using Docker.
 
-<img width="940" height="250" alt="image" src="https://github.com/user-attachments/assets/c5968263-72c4-4630-8ca3-0ee916c19900" />
+<img width="750" height="150" alt="image" src="https://github.com/user-attachments/assets/c5968263-72c4-4630-8ca3-0ee916c19900" />
 
 
 ---
