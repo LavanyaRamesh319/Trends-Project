@@ -260,6 +260,8 @@ kubectl get pods
 kubectl get svc
 ```
 
+<img width="940" height="183" alt="image" src="https://github.com/user-attachments/assets/f52a6048-97bb-4bd9-8c18-aabf4e5d2849" />
+
 ---
 
 # Kubernetes Files
@@ -391,6 +393,7 @@ Deploy application to Amazon EKS using Kubernetes.
 <img width="940" height="106" alt="image" src="https://github.com/user-attachments/assets/a3cd035e-caaa-4001-8d33-c550e7e01a31" />
 
 
+
 ---
 
 # Jenkinsfile
@@ -409,6 +412,23 @@ Pipeline Result
 SUCCESS
 ```
 
+<img width="940" height="524" alt="image" src="https://github.com/user-attachments/assets/8cc5c0fc-fd5f-4570-b493-2de24cebdc1d" />
+
+<img width="940" height="555" alt="image" src="https://github.com/user-attachments/assets/a6b158de-b37e-445f-8e7d-4317056c69f3" />
+
+<img width="940" height="755" alt="image" src="https://github.com/user-attachments/assets/5cbebcaa-f17d-482a-b943-58ce3f77978c" />
+
+<img width="940" height="597" alt="image" src="https://github.com/user-attachments/assets/4ba84152-ab13-4774-99ab-d55a66b806bf" />
+
+<img width="940" height="770" alt="image" src="https://github.com/user-attachments/assets/73d81b16-73f2-4954-b4f7-1477b06c7230" />
+
+<img width="940" height="712" alt="image" src="https://github.com/user-attachments/assets/a8215f39-21c2-4ee7-a79d-b2ff562272dc" />
+
+<img width="940" height="691" alt="image" src="https://github.com/user-attachments/assets/ed461fce-edac-405b-8f03-0961433c7051" />
+
+<img width="940" height="183" alt="image" src="https://github.com/user-attachments/assets/c019ff98-3471-4b8c-b5eb-f8b90eb7c9e5" />
+
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/9f9db227-889b-4f03-8205-0571b66439eb" />
 ---
 
 # CI/CD Workflow
