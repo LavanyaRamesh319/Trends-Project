@@ -1,95 +1,443 @@
-DevOps Practice Project – Dist Directory
+# Trend Application Deployment using DevOps CI/CD Pipeline
 
-This repository contains the production-ready build files (dist folder) for DevOps practice and deployment exercises.
+## Project Overview
 
-It is intentionally structured to help learners focus on CI/CD pipelines, hosting, containerization, and infrastructure setup rather than application development.
+This project demonstrates a complete DevOps CI/CD pipeline for deploying a production-ready React application using Docker, Terraform, AWS EC2, Amazon EKS, Kubernetes, DockerHub, GitHub, and Jenkins.
 
-📁 What This Repository Contains
+The pipeline automatically builds, pushes, and deploys the application whenever changes are pushed to GitHub.
 
-dist/ – Compiled and production-ready static files
+---
 
-HTML
+# Project Architecture
 
-CSS
+GitHub Repository
+        │
+        ▼
+GitHub Webhook
+        │
+        ▼
+Jenkins Pipeline
+        │
+        ├──────────────► Docker Build
+        │
+        ├──────────────► Docker Push (DockerHub)
+        │
+        ▼
+Amazon EKS
+        │
+        ▼
+Kubernetes Deployment
+        │
+        ▼
+LoadBalancer
+        │
+        ▼
+Trend Web Application
 
-JavaScript
+---
 
-Assets (images, fonts, etc.)
+# Technologies Used
 
-These files are ready to deploy to:
+- Git & GitHub
+- Docker
+- DockerHub
+- Terraform
+- AWS EC2
+- AWS IAM
+- AWS VPC
+- Amazon EKS
+- Kubernetes
+- Jenkins
+- Nginx
+- Linux (Amazon Linux)
+- GitHub Webhook
 
-Web servers (Nginx / Apache)
+---
 
-Cloud platforms (AWS S3, Azure Blob, GCP Storage)
+# Project Structure
 
-Containerized environments (Docker + Nginx)
+```
+Trend/
+│
+├── dist/
+├── Dockerfile
+├── .dockerignore
+├── .gitignore
+├── Jenkinsfile
+├── terraform/
+│     └── main.tf
+│
+├── k8s/
+│     ├── deployment.yaml
+│     └── service.yaml
+│
+└── README.md
+```
 
-Kubernetes clusters
+---
 
-CI/CD pipeline demonstrations
+# Application Deployment
 
-🎯 Purpose of This Repository
+### Repository
 
-This repository is designed for:
+Original Repository
 
-DevOps beginners
+https://github.com/Vennilavanguvi/Trend.git
 
-CI/CD practice
+The repository was cloned and deployed on port **3000** using Docker.
 
-Deployment pipeline testing
+---
 
-Docker & Kubernetes deployment exercises
+# Docker
 
-Web server configuration practice
+### Dockerfile Created
 
-Reverse proxy and load balancer setup
+The application was containerized using Nginx.
 
-The goal is to simulate real-world deployment scenarios using already built application files.
+Docker Image
 
-❓ Why is there NO package.json?
+```
+lavanyadevops1/trend-app:latest
+```
 
-You may notice that this repository does not include:
+Docker Commands
 
-package.json
+```bash
+docker build -t lavanyadevops1/trend-app:latest .
+```
 
-node_modules
+```bash
+docker run -d -p 3000:80 lavanyadevops1/trend-app:latest
+```
 
-Source code (src/)
+---
 
-Build tools configuration
+# Terraform
 
-✅ Reason:
+Infrastructure was provisioned using Terraform.
 
-This repository only contains the final production build output (dist), not the development source code.
+Resources Created
 
-In a typical project:
+- VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+- Security Group
+- IAM Role
+- EC2 Instance (Jenkins Server)
 
-Developers write source code.
+Terraform Commands
 
-The project is built using tools like:
+```bash
+terraform init
+```
 
-Node.js
+```bash
+terraform validate
+```
 
-Webpack
+```bash
+terraform plan
+```
 
-Vite
+```bash
+terraform apply
+```
 
-React (or other frameworks)
+---
 
-A dist/ folder is generated.
+# DockerHub
 
-Only the production build is deployed to servers.
+DockerHub Repository
 
-This repository represents step 4 only.
+```
+lavanyadevops1/trend-app
+```
 
-Since this is already the compiled output:
+Push Commands
 
-No dependencies are required
+```bash
+docker login
+```
 
-No build process is required
+```bash
+docker push lavanyadevops1/trend-app:latest
+```
 
-No package.json is needed
-Testing Jenkins webhook
-Testing Jenkins webhook1
-Testing jenkins build
-Testing for third time
+---
+
+# Kubernetes (Amazon EKS)
+
+Amazon EKS Cluster was successfully created.
+
+Verification
+
+```bash
+kubectl get nodes
+```
+
+Output
+
+```
+2 Worker Nodes
+Status : Ready
+```
+
+Deployment
+
+```bash
+kubectl apply -f k8s/
+```
+
+Verification
+
+```bash
+kubectl get deployments
+```
+
+```bash
+kubectl get pods
+```
+
+```bash
+kubectl get svc
+```
+
+---
+
+# Kubernetes Files
+
+deployment.yaml
+
+- Deployment Name: trend-deployment
+- Replicas: 2
+- Image: lavanyadevops1/trend-app:latest
+
+service.yaml
+
+- Service Type: LoadBalancer
+- Port: 80
+- Target Port: 80
+
+---
+
+# Version Control
+
+GitHub Repository
+
+https://github.com/LavanyaRamesh319/Trends-Project
+
+Files Added
+
+- Dockerfile
+- Jenkinsfile
+- Terraform Files
+- Kubernetes YAML
+- .gitignore
+- .dockerignore
+
+Git Commands
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "Project completed"
+```
+
+```bash
+git push origin main
+```
+
+---
+
+# Jenkins
+
+Installed Plugins
+
+- Git
+- Docker
+- Docker Pipeline
+- Kubernetes
+- Pipeline
+- GitHub
+
+GitHub Webhook
+
+GitHub repository is integrated with Jenkins using Webhook.
+
+Every push automatically triggers the Jenkins Pipeline.
+
+Webhook URL
+
+```
+http://<Jenkins-Public-IP>:8080/github-webhook/
+```
+
+---
+
+# Jenkins Pipeline Stages
+
+## Checkout
+
+Clone source code from GitHub.
+
+## Build
+
+Build Docker Image.
+
+## Docker Login
+
+Authenticate with DockerHub.
+
+## Push
+
+Push Docker Image to DockerHub.
+
+## Deploy
+
+Deploy application to Amazon EKS using Kubernetes.
+
+---
+
+# Jenkinsfile
+
+Pipeline contains the following stages:
+
+- Checkout
+- Build Docker Image
+- Docker Login
+- Push Docker Image
+- Deploy to Kubernetes
+
+Pipeline Result
+
+```
+SUCCESS
+```
+
+---
+
+# CI/CD Workflow
+
+Developer Pushes Code
+
+↓
+
+GitHub Webhook Trigger
+
+↓
+
+Jenkins Pipeline Starts
+
+↓
+
+Checkout Repository
+
+↓
+
+Docker Image Build
+
+↓
+
+DockerHub Push
+
+↓
+
+Deploy to Kubernetes
+
+↓
+
+Application Updated Automatically
+
+---
+
+# Kubernetes LoadBalancer
+
+Load Balancer Name
+
+```
+aa2c7189b604d42948a2c6e6e05777
+```
+
+DNS Name
+
+```
+aa2c7189b604d42948a2c6e6e05777-1304545656.ap-south-2.elb.amazonaws.com
+```
+
+Type
+
+```
+Classic Load Balancer
+```
+
+Application URL
+
+```
+http://aa2c7189b604d42948a2c6e6e05777-1304545656.ap-south-2.elb.amazonaws.com
+```
+
+---
+
+# Monitoring
+
+Monitoring is an optional requirement.
+
+Prometheus and Grafana can be integrated with Amazon EKS using Helm for monitoring cluster health, CPU, memory usage, pods, deployments, and services.
+
+---
+
+# Screenshots Included
+
+- Application Running
+- Docker Image Build
+- DockerHub Repository
+- Terraform Apply
+- EC2 Instance
+- EKS Cluster
+- Kubernetes Nodes
+- Kubernetes Pods
+- Kubernetes Services
+- Jenkins Dashboard
+- Jenkins Pipeline Success
+- GitHub Repository
+- GitHub Webhook
+- LoadBalancer
+- Application Output
+
+---
+
+# Project Outcome
+
+Successfully deployed a production-ready React application using a complete DevOps CI/CD pipeline.
+
+Implemented:
+
+- GitHub Version Control
+- Docker Containerization
+- DockerHub Image Repository
+- Infrastructure as Code using Terraform
+- AWS EC2
+- Amazon EKS
+- Kubernetes Deployment
+- Jenkins CI/CD Automation
+- GitHub Webhook Integration
+- Automatic Kubernetes Deployment
+
+The application is automatically rebuilt, pushed to DockerHub, and deployed to Amazon EKS whenever code is pushed to GitHub.
+
+---
+
+## Author
+
+**Lavanya Ramesh**
+
+GitHub
+
+https://github.com/LavanyaRamesh319
+
+DockerHub
+
+https://hub.docker.com/r/lavanyadevops1/trend-app
