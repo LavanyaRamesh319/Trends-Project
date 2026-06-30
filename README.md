@@ -11,15 +11,10 @@ The pipeline automatically builds, pushes, and deploys the application whenever 
 # Project Architecture
 
 GitHub Repository
-
         │
-        
         ▼
-        
 GitHub Webhook
-  
         │
-  
         ▼
 Jenkins Pipeline
         │
