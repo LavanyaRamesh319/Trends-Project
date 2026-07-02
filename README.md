@@ -535,6 +535,99 @@ The application is automatically rebuilt, pushed to DockerHub, and deployed to A
 
 ---
 
+# Monitoring
+
+Monitoring was implemented using the open-source **Prometheus + Grafana** stack.
+
+Installed Components
+
+- Prometheus
+- Grafana
+- Alertmanager
+- Prometheus Operator
+- Node Exporter
+- kube-state-metrics
+
+Monitoring Features
+
+- Kubernetes Cluster Monitoring
+- Node Monitoring
+- CPU Utilization
+- Memory Utilization
+- Disk Usage
+- Network Usage
+- Pod Health
+- Application Health
+
+Verify Monitoring
+
+```bash
+kubectl get pods -n monitoring
+
+kubectl get svc -n monitoring
+```
+
+Grafana Access
+
+```
+URL
+
+http://af7a4537eb2e84b7482ce94a7a9939fc-519990022.ap-south-2.elb.amazonaws.com:3000
+```
+
+Prometheus Data Source
+
+Successfully configured and verified.
+
+<img width="940" height="594" alt="image" src="https://github.com/user-attachments/assets/baa840fd-82f9-422d-a215-ac8fd294f819" />
+
+
+<img width="940" height="936" alt="image" src="https://github.com/user-attachments/assets/ce513a86-8312-43f1-91fe-db76b332302e" />
+
+
+<img width="940" height="911" alt="image" src="https://github.com/user-attachments/assets/3753b1db-5713-49c8-a12d-6c10e98dc3cd" />
+
+
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/0dc89d33-48df-43b1-851b-d76376720423" />
+
+
+<img width="940" height="707" alt="image" src="https://github.com/user-attachments/assets/6a417d77-521e-4e78-9152-3e1863bc9ada" />
+
+
+<img width="940" height="457" alt="image" src="https://github.com/user-attachments/assets/d388f135-f4ec-4c0c-a362-9dd009430c4f" />
+
+
+<img width="940" height="459" alt="image" src="https://github.com/user-attachments/assets/5cdd1835-d28b-4f30-9b20-245cf757f0dd" />
+
+
+<img width="940" height="369" alt="image" src="https://github.com/user-attachments/assets/f8e95562-d420-4705-ac82-638065955044" />
+
+
+<img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/3edadfd4-5c0a-460a-9f0b-37a5bbcf596d" />
+
+
+<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/273bf384-31fe-406c-9c32-bef768482c69" />
+
+
+<img width="940" height="372" alt="image" src="https://github.com/user-attachments/assets/2f73d0fb-399c-48e6-8e8e-8e5b8145a367" />
+
+
+<img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/86192ace-447a-4b3e-9e7f-c4ef60af13d7" />
+
+
+<img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/6fb049c5-780c-4c39-ab21-560ace52f398" />
+
+---
+
+# Application URL
+
+
+```
+http://aa2c7189b604d42948a2c6e6e05777-1304545656.ap-south-2.elb.amazonaws.com
+```
+
+---
+
 ## Author
 
 **Lavanya Ramesh**
